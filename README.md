@@ -171,20 +171,20 @@ experience_and_education:
 <!-- TELEMETRY:START -->
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│  GREEN-CLOUD SCHEDULER & GITHUB TELEMETRY  ·  LAST SYNC: 2026-11-09 15:40 UTC          │
+│  GREEN-CLOUD SCHEDULER & GITHUB TELEMETRY  ·  LAST SYNC: 2026-11-09 15:45 UTC          │
 ├──────────────────────────────┬───────────────────────────────────────────────────────────┤
 │  Optimal Batch Region        │  eu-north-1 (Stockholm) — ~18-24 gCO2eq/kWh (Hydro/Wind)  │
 │  Spot Routing Policy         │  Active (-68% Spot Cost · 0 SLA Violations)               │
-│  Public Repositories         │  7  Public Repos · AWS SAA-C03 Certified                  │
+│  Public Repositories         │  8  Public Repos · AWS SAA-C03 Certified                  │
 └──────────────────────────────┴───────────────────────────────────────────────────────────┘
 ```
 
 | Recently Active Repository | Primary Stack | Summary | Last Push |
 | :--- | :--- | :--- | :--- |
+| [`fouad-awad`](https://github.com/fouad-awad/fouad-awad) | `Python` | Active engineering repository | `2026-11-09` |
 | [`production-aws-3tier-web-app`](https://github.com/fouad-awad/production-aws-3tier-web-app) | `Shell` | Production-grade, cost-engineered 3-tier web architecture on AWS — Multi-AZ... | `2026-10-16` |
 | [`leadpulse`](https://github.com/fouad-awad/leadpulse) | `JavaScript` | Active engineering repository | `2026-07-27` |
 | [`flyrank-fe-01-capstone`](https://github.com/fouad-awad/flyrank-fe-01-capstone) | `Cloud / Multi-Stack` | Active engineering repository | `2026-07-21` |
-| [`library-management-system`](https://github.com/fouad-awad/library-management-system) | `PHP` | A library management system | `2026-06-29` |
 <!-- TELEMETRY:END -->
 
 ---
