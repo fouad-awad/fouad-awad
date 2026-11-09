@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
+.ascii {font-size: 9px;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#161b22" rx="15"/>
+<text x="15" y="28" fill="#c9d1d9" class="ascii">
+<tspan x="15" y="28.0">                          &amp;&amp;.&amp;&amp;&amp;&amp;&amp;:$&amp;&amp;&amp;:;$&amp;&amp;                      </tspan>
+<tspan x="15" y="41.8">                  ;+X$X &amp;&amp;X&amp;&amp;$;x&amp;xX&amp;&amp;&amp;xx&amp;&amp;&amp;&amp;&amp;&amp;                    </tspan>
+<tspan x="15" y="55.5">                    &amp;&amp;X&amp;&amp;XXX&amp;&amp;+.;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;x. ;&amp;&amp;                   </tspan>
+<tspan x="15" y="69.2">                 &amp;$$&amp;X:X&amp;&amp;&amp;XXx&amp;&amp;&amp;&amp;&amp;x&amp;&amp;&amp;&amp;&amp;xX&amp;XX&amp;&amp;&amp;&amp;&amp;               </tspan>
+<tspan x="15" y="83.0">                 &amp;&amp;X$X&amp;&amp;&amp;; +&amp;&amp;&amp;&amp;XX;.;  X$+&amp;&amp;X&amp;&amp;.:.&amp;$x             </tspan>
+<tspan x="15" y="96.8">                 &amp;&amp;;$$;xx&amp;X&amp;&amp;&amp;XXX&amp;  ;   x&amp;XX +&amp;&amp;Xx+$&amp;&amp;&amp;x          </tspan>
+<tspan x="15" y="110.5">                   x&amp;&amp;&amp;&amp;+&amp;&amp;;.X. XX       &amp;&amp; . x;:$&amp;x;+X&amp;;         </tspan>
+<tspan x="15" y="124.2">              ;+;..&amp;X;.X&amp;&amp;X;.;XXx;        .&amp;$&amp;&amp;&amp;&amp;&amp;x&amp;XXX+X         </tspan>
+<tspan x="15" y="138.0">               ;+X+&amp;&amp;&amp;$;.;             .  :&amp; .+;$&amp;&amp;&amp;X$X&amp;&amp;         </tspan>
+<tspan x="15" y="151.8">                 +   :.:;.            ::;;.X+; +&amp;+&amp;XX&amp;&amp;&amp;&amp;&amp;        </tspan>
+<tspan x="15" y="165.5">                   X .:.   X&amp;&amp;&amp;&amp;&amp;&amp;X.    .  X$X::+&amp;&amp;$$$&amp;X;&amp;;       </tspan>
+<tspan x="15" y="179.2">                  &amp;&amp;$   :XXX+.      +;       ;+.;: X$xX&amp;x&amp;+       </tspan>
+<tspan x="15" y="193.0">                  X  X+;  ...&amp;&amp;&amp; &amp;&amp;&amp;+;;;.    .    X&amp;&amp;&amp;&amp;&amp;X&amp;        </tspan>
+<tspan x="15" y="206.8">                   &amp;&amp;X&amp;: &amp;&amp;XXX;..;..       .   :x;     &amp;&amp;&amp;        </tspan>
+<tspan x="15" y="220.5">                   &amp;&amp;X     ;;;x+              ..   $$$+ X&amp;        </tspan>
+<tspan x="15" y="234.2">                    ;   ;.          ...   ...:;x  xX  xx+X        </tspan>
+<tspan x="15" y="248.0">                   X       .;..  ..    ...... ..  $&amp;&amp;:  &amp;         </tspan>
+<tspan x="15" y="261.8">                  X.       ;$x:..         ...;;;;&amp;. :  X&amp;         </tspan>
+<tspan x="15" y="275.5">                  X..;XX&amp;&amp;$. ;;.    ..  ..::  ;;      &amp;&amp;          </tspan>
+<tspan x="15" y="289.2">                   ;&amp;&amp;&amp;&amp;X;          . .:::. ..+$x;;&amp;&amp;&amp;&amp;X&amp;&amp;&amp;&amp;      </tspan>
+<tspan x="15" y="303.0">                  .&amp;&amp;&amp;&amp;&amp;$x&amp;&amp;xx       .::...;:.+;;;:&amp;&amp;X&amp;&amp;&amp;&amp;        </tspan>
+<tspan x="15" y="316.8">                  &amp;&amp;: .:;+:+&amp;&amp;&amp;+ .:.....:.:.;++:..:&amp;&amp;&amp;&amp;           </tspan>
+<tspan x="15" y="330.5">                   ;$$+;::;:......;:.....:.;+++::..&amp;$ ;$x.        </tspan>
+<tspan x="15" y="344.2">                     xX+;......:;.;.:. ..;XXx;:.. .&amp;              </tspan>
+<tspan x="15" y="358.0">                     .X;XX;;:;:;.. .:.:;xX+;:;;:; x&amp;.             </tspan>
+<tspan x="15" y="371.8">                      xx;:;;:.    ...;XXX+;:;;:;;:;x              </tspan>
+<tspan x="15" y="385.5">                       +.;.:  .;;;;$&amp;$++;;;;x;;:;;.               </tspan>
+<tspan x="15" y="399.2">               .X&amp;&amp;&amp;&amp;&amp;$&amp; ....;;x$&amp;$XX;;;;;;;;;;;;x;               </tspan>
+<tspan x="15" y="413.0">        :&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$X&amp;XXX&amp;X&amp;$&amp;&amp;&amp;&amp;$X;.:.::;;;;;;;;;;xx.xXXXxx;.....::</tspan>
+<tspan x="15" y="426.8">;+XXXX&amp;&amp;&amp;$XX+;x$XxX$+xxX;$Xxx;;;;X;;;;+;;;;;;;;+;++        .      </tspan>
+<tspan x="15" y="440.5">;.:+;.+xX+xxX$$X+xXxXXX$Xxxx+;;;;;+:;..:::;;;;;;+x&amp;.             :</tspan>
+<tspan x="15" y="454.2">;;:;..X;&amp;x;$xXX;XXxXX;X$X;;+;;:..;+:;;;;;;;;;;x+;;x$$+            </tspan>
+<tspan x="15" y="468.0">;::;..:+..+$X$+XXXXXX+XX;;:;+;;;;;;;::.:;;;+;+.:;x$x..XX          </tspan>
+<tspan x="15" y="481.8">:;;;;:. +++XXxxXXXXxXX$XXXX+xx+;:;;x;;;::;;;;;:.;&amp;xX. +xXX$+      </tspan>
+<tspan x="15" y="495.5">;;++;.:$$$&amp;&amp;xxXX+XXXXX;;+XxxXXXx:..;;+;:;Xx++:. ;  . +.;:;;XXX;   </tspan>
+<tspan x="15" y="509.2">.:x;.;&amp;:;X; x+XXXXXXXXXx++XX+;..;;::..::Xx;;x     .::: ;:+; ;xXX$:</tspan>
+</text>
+<text x="390" y="30" fill="#c9d1d9">
+<tspan x="390" y="30">fouad@awad</tspan> -—————————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Linux, AWS Cloud, Windows 11</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Final-Year CE (Grad. Jan 2027)</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">IAEMS (GPA 3.4, Ranked 3rd)</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Cloud &amp; DevOps Eng. (AWS SAA-C03)</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Capstone</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Carbon-Aware Cloud Batch Scheduler</tspan>
+<tspan x="390" y="150" class="cc">. </tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Cloud</tspan>.<tspan class="key">AWS</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">EC2, VPC, RDS, S3, WAF, Batch</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">DevOps</tspan>.<tspan class="key">IaC</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Terraform, CloudFormation, Docker</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Python, Bash, C++, JS, SQL</tspan>
+<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Arabic, English, German</tspan>
+<tspan x="390" y="250" class="cc">. </tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Creative</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Game Dev, MC Modding, Web Tech</tspan>
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Music</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Indie/Rock Guitar, Music Prod.</tspan>
+<tspan x="390" y="330">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">fouad.ai@outlook.com</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Portfolio</tspan>.<tspan class="key">Web</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">fouadawad.org</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">fouad-awad</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Giza, Egypt (Open to Relocate)</tspan>
+<tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">8</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">8</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ................ </tspan><tspan class="value" id="star_data">1</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .................. </tspan><tspan class="value" id="commit_data">20</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ............ </tspan><tspan class="value" id="follower_data">1</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> .... </tspan><tspan class="value" id="loc_data">15,246</tspan> ( <tspan class="addColor" id="loc_add">16,923</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"></tspan><tspan class="delColor" id="loc_del">1,677</tspan><tspan class="delColor">--</tspan> )
+</text>
+</svg>
