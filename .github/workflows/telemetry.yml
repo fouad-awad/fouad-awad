@@ -41,5 +41,7 @@ jobs:
             echo "No telemetry changes to commit."
           else
             git commit -m "chore(telemetry): sync live GitHub stats & carbon scheduler metrics [skip ci]"
+            git pull --rebase origin main
             git push
           fi
+

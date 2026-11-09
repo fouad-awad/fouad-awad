@@ -157,6 +157,6 @@
     $ systemctl status green-scheduler.service -&gt; <tspan fill="#3fb950" font-weight="600">active (running)</tspan> | Primary Region: <tspan fill="#3fb950">eu-north-1</tspan>
   </text>
   <text x="972" y="402" text-anchor="end" class="mono" font-size="11" fill="#8b949e">
-    Last Synced: <tspan fill="#58a6ff">2026-11-09 15:45 UTC</tspan> (Stars: 1 · Active Projects: 8)
+    Last Synced: <tspan fill="#58a6ff">2026-11-09 15:51 UTC</tspan> (Stars: 1 · Active Projects: 8)
   </text>
 </svg>

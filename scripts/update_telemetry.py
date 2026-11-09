@@ -323,9 +323,12 @@ def update_readme_telemetry(
     timestamp_str = now_utc.strftime("%Y-%m-%d %H:%M UTC")
     public_repos = user_data.get("public_repos", len(repos_data) or 7)
 
-    # Top recently updated repositories
+    # Top recently updated repositories (excluding profile repo itself)
     recent_rows = []
-    for repo in repos_data[:4]:
+    project_repos = [
+        r for r in repos_data if r.get("name", "").lower() != USERNAME.lower()
+    ]
+    for repo in project_repos[:4]:
         name = repo.get("name", "repo")
         url = repo.get("html_url", f"https://github.com/{USERNAME}/{name}")
         lang = repo.get("language") or "Cloud / Multi-Stack"
@@ -388,3 +391,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

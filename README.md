@@ -42,109 +42,6 @@
 
 ---
 
-### `fouad@aws-cloud:~$ ls -la ~/featured-systems/`
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌿 Carbon &amp; Cost-Aware Cloud Batch Scheduler</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Status-Capstone_Lead_(In_Design)-3fb950?style=flat-square&labelColor=161b22" />
-        <img src="https://img.shields.io/badge/AWS_Batch-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=161b22" />
-        <img src="https://img.shields.io/badge/Green_Cloud-2ea043?style=flat-square&labelColor=161b22" />
-      </p>
-      <p>
-        Leading a student engineering team designing an intelligent multi-cloud scheduler that dynamically routes batch compute jobs across regions using <b>live grid carbon intensity (gCO₂eq/kWh)</b> and <b>Spot/On-Demand pricing signals</b>.
-      </p>
-      <ul>
-        <li><b>Objective:</b> Minimize cloud operational emissions and compute cost simultaneously while strictly enforcing job SLA deadlines.</li>
-        <li><b>Architecture:</b> Carbon-intensity telemetry ingestion, temporal/spatial workload shifting, and Spot interruption fallback policies.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>☁️ <a href="https://github.com/fouad-awad/production-aws-3tier-web-app">Production Multi-AZ 3-Tier AWS Architecture</a></h4>
-      <p>
-        <a href="https://github.com/fouad-awad/production-aws-3tier-web-app"><img src="https://img.shields.io/badge/Repo-production--aws--3tier--web--app-58a6ff?style=flat-square&logo=github&labelColor=161b22" /></a>
-        <img src="https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazoncloudwatch&logoColor=white&labelColor=161b22" />
-      </p>
-      <p>
-        Production-grade, cost-engineered 3-tier web architecture on AWS built and verified end-to-end on a <b>&lt;$100/month budget</b> via Infrastructure as Code.
-      </p>
-      <ul>
-        <li><b>Edge &amp; Zero-Trust Security:</b> CloudFront + AWS WAF at the edge with origin cloaking (ALB reachable strictly via CloudFront) and least-privilege IAM.</li>
-        <li><b>Resilience &amp; Observability:</b> Auto Scaling compute tier, Multi-AZ RDS tier, bastion-free access via AWS Systems Manager (SSM), and CloudWatch alarms with SNS alerts.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🚀 <a href="https://github.com/fouad-awad/leadpulse">LeadPulse — Lead Gen &amp; Web Auditing Platform</a></h4>
-      <p>
-        <a href="https://github.com/fouad-awad/leadpulse"><img src="https://img.shields.io/badge/Repo-leadpulse-bc8cff?style=flat-square&logo=github&labelColor=161b22" /></a>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=161b22" />
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=161b22" />
-      </p>
-      <p>
-        Full-stack platform that discovers local businesses via <b>Google Places &amp; OpenStreetMap</b>, runs automated technical audits, and manages outreach in a built-in CRM.
-      </p>
-      <ul>
-        <li><b>Automated Web Audits:</b> Detects CMS/platform, verifies SSL/TLS health, checks on-page SEO, and scores Core Web Vitals via Google PageSpeed Insights.</li>
-        <li><b>DevOps &amp; Delivery:</b> Containerized with Docker Compose, automated GitHub Actions CI workflows, and one-click Excel CRM export.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ <a href="https://fouadawad.org">Web Infrastructure, Game Dev &amp; Creative Tech</a></h4>
-      <p>
-        <a href="https://fouadawad.org"><img src="https://img.shields.io/badge/Live-fouadawad.org-3fb950?style=flat-square&logo=vercel&labelColor=161b22" /></a>
-        <a href="https://github.com/fouad-awad/forge-1.21-51.0.33-mdk-mod"><img src="https://img.shields.io/badge/Game_Dev-Godot_%26_Forge-39c5cf?style=flat-square&logo=godotengine&logoColor=white&labelColor=161b22" /></a>
-      </p>
-      <p>
-        High-performance web deployments, creative engineering, and game systems experimentation.
-      </p>
-      <ul>
-        <li><b>Joud E-Commerce Infrastructure:</b> Cut page load time by <b>45% (4.0s → 2.2s)</b> and achieved a <b>90+ Lighthouse score</b> via edge caching, DNS/SSL tuning, and SQL query optimization.</li>
-        <li><b>Game Dev &amp; Data:</b> Prototyping in <b>Godot</b> &amp; <a href="https://github.com/fouad-awad/forge-1.21-51.0.33-mdk-mod">Minecraft Forge 1.21 modding</a>, plus statistical data pipelines in <a href="https://github.com/fouad-awad/Student-Mental-Health-Analysis">Student Mental Health Analysis</a>.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-### `fouad@aws-cloud:~$ cat /etc/certifications-and-experience.conf`
-
-```yaml
-certifications:
-  - name: "AWS Certified Solutions Architect – Associate (SAA-C03)"
-    issuer: "Amazon Web Services (AWS)"
-    validity: "Oct 2026 – Oct 2029"
-    focus: ["Multi-AZ High Availability", "VPC & WAF Security", "Cost & Carbon Optimization"]
-
-  - name: "AWS Well-Architected Proficient"
-    issuer: "Amazon Web Services (AWS) · Aug 2026"
-
-  - name: "Claude with Amazon Bedrock & AI Fluency: Framework & Foundations"
-    issuer: "Anthropic · Jul 2026"
-
-  - name: "Intermediate SQL (PostgreSQL) & Data Engineering"
-    issuer: "DataCamp · Feb 2026"
-
-experience_and_education:
-  - role: "Web Infrastructure & Deployment Developer (Freelance)"
-    org: "Joud (E-Commerce) · Remote"
-    impact: "Cut TTFB & page load latency by 45% (4.0s -> 2.2s), 90+ Lighthouse, edge caching & SSL/TLS hardening"
-
-  - role: "Networking, IT & AI Engineering Intern"
-    org: "Cairo Airport Company · Cairo, Egypt"
-    impact: "Enterprise LAN/WAN topologies (VLANs, subnetting, routing) & mission-critical aviation IT diagnostics"
-
-  - degree: "B.Sc. in Computer Engineering (Expected Jan 2027)"
-    institution: "International Academy for Engineering & Media Sciences (IAEMS)"
-    honors: "GPA 3.4 · Ranked 3rd Place across the 3rd Academic Division (2025–2026)"
-```
-
----
-
 ### `fouad@aws-cloud:~$ dpkg --list | grep "tech-stack"`
 
 <div align="center">
@@ -160,8 +57,6 @@ experience_and_education:
 
 ---
 
-### `fouad@aws-cloud:~$ watch -n 6h ./scripts/update_telemetry.py`
-
 <div align="center">
   <img src="./assets/telemetry.svg" alt="Live Green-Cloud & GitHub Engineering Telemetry" width="100%" />
 </div>
@@ -171,7 +66,7 @@ experience_and_education:
 <!-- TELEMETRY:START -->
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│  GREEN-CLOUD SCHEDULER & GITHUB TELEMETRY  ·  LAST SYNC: 2026-11-09 15:45 UTC          │
+│  GREEN-CLOUD SCHEDULER & GITHUB TELEMETRY  ·  LAST SYNC: 2026-11-09 15:51 UTC          │
 ├──────────────────────────────┬───────────────────────────────────────────────────────────┤
 │  Optimal Batch Region        │  eu-north-1 (Stockholm) — ~18-24 gCO2eq/kWh (Hydro/Wind)  │
 │  Spot Routing Policy         │  Active (-68% Spot Cost · 0 SLA Violations)               │
@@ -181,15 +76,13 @@ experience_and_education:
 
 | Recently Active Repository | Primary Stack | Summary | Last Push |
 | :--- | :--- | :--- | :--- |
-| [`fouad-awad`](https://github.com/fouad-awad/fouad-awad) | `Python` | Active engineering repository | `2026-11-09` |
 | [`production-aws-3tier-web-app`](https://github.com/fouad-awad/production-aws-3tier-web-app) | `Shell` | Production-grade, cost-engineered 3-tier web architecture on AWS — Multi-AZ... | `2026-10-16` |
 | [`leadpulse`](https://github.com/fouad-awad/leadpulse) | `JavaScript` | Active engineering repository | `2026-07-27` |
 | [`flyrank-fe-01-capstone`](https://github.com/fouad-awad/flyrank-fe-01-capstone) | `Cloud / Multi-Stack` | Active engineering repository | `2026-07-21` |
+| [`library-management-system`](https://github.com/fouad-awad/library-management-system) | `PHP` | A library management system | `2026-06-29` |
 <!-- TELEMETRY:END -->
 
 ---
-
-### `fouad@aws-cloud:~$ ./render-contribution-snake.sh --theme=dark`
 
 <div align="center">
   <picture>
