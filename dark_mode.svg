@@ -13,47 +13,47 @@ size-adjust: 109%;
 .addColor {fill: #3fb950;}
 .delColor {fill: #f85149;}
 .cc {fill: #616e7f;}
-.ascii {font-size: 9px;}
+.ascii {font-size: 9.5px;}
 text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#161b22" rx="15"/>
-<text x="15" y="28" fill="#c9d1d9" class="ascii">
-<tspan x="15" y="28.0">                          &amp;&amp;.&amp;&amp;&amp;&amp;&amp;:$&amp;&amp;&amp;:;$&amp;&amp;                      </tspan>
-<tspan x="15" y="41.8">                  ;+X$X &amp;&amp;X&amp;&amp;$;x&amp;xX&amp;&amp;&amp;xx&amp;&amp;&amp;&amp;&amp;&amp;                    </tspan>
-<tspan x="15" y="55.5">                    &amp;&amp;X&amp;&amp;XXX&amp;&amp;+.;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;x. ;&amp;&amp;                   </tspan>
-<tspan x="15" y="69.2">                 &amp;$$&amp;X:X&amp;&amp;&amp;XXx&amp;&amp;&amp;&amp;&amp;x&amp;&amp;&amp;&amp;&amp;xX&amp;XX&amp;&amp;&amp;&amp;&amp;               </tspan>
-<tspan x="15" y="83.0">                 &amp;&amp;X$X&amp;&amp;&amp;; +&amp;&amp;&amp;&amp;XX;.;  X$+&amp;&amp;X&amp;&amp;.:.&amp;$x             </tspan>
-<tspan x="15" y="96.8">                 &amp;&amp;;$$;xx&amp;X&amp;&amp;&amp;XXX&amp;  ;   x&amp;XX +&amp;&amp;Xx+$&amp;&amp;&amp;x          </tspan>
-<tspan x="15" y="110.5">                   x&amp;&amp;&amp;&amp;+&amp;&amp;;.X. XX       &amp;&amp; . x;:$&amp;x;+X&amp;;         </tspan>
-<tspan x="15" y="124.2">              ;+;..&amp;X;.X&amp;&amp;X;.;XXx;        .&amp;$&amp;&amp;&amp;&amp;&amp;x&amp;XXX+X         </tspan>
-<tspan x="15" y="138.0">               ;+X+&amp;&amp;&amp;$;.;             .  :&amp; .+;$&amp;&amp;&amp;X$X&amp;&amp;         </tspan>
-<tspan x="15" y="151.8">                 +   :.:;.            ::;;.X+; +&amp;+&amp;XX&amp;&amp;&amp;&amp;&amp;        </tspan>
-<tspan x="15" y="165.5">                   X .:.   X&amp;&amp;&amp;&amp;&amp;&amp;X.    .  X$X::+&amp;&amp;$$$&amp;X;&amp;;       </tspan>
-<tspan x="15" y="179.2">                  &amp;&amp;$   :XXX+.      +;       ;+.;: X$xX&amp;x&amp;+       </tspan>
-<tspan x="15" y="193.0">                  X  X+;  ...&amp;&amp;&amp; &amp;&amp;&amp;+;;;.    .    X&amp;&amp;&amp;&amp;&amp;X&amp;        </tspan>
-<tspan x="15" y="206.8">                   &amp;&amp;X&amp;: &amp;&amp;XXX;..;..       .   :x;     &amp;&amp;&amp;        </tspan>
-<tspan x="15" y="220.5">                   &amp;&amp;X     ;;;x+              ..   $$$+ X&amp;        </tspan>
-<tspan x="15" y="234.2">                    ;   ;.          ...   ...:;x  xX  xx+X        </tspan>
-<tspan x="15" y="248.0">                   X       .;..  ..    ...... ..  $&amp;&amp;:  &amp;         </tspan>
-<tspan x="15" y="261.8">                  X.       ;$x:..         ...;;;;&amp;. :  X&amp;         </tspan>
-<tspan x="15" y="275.5">                  X..;XX&amp;&amp;$. ;;.    ..  ..::  ;;      &amp;&amp;          </tspan>
-<tspan x="15" y="289.2">                   ;&amp;&amp;&amp;&amp;X;          . .:::. ..+$x;;&amp;&amp;&amp;&amp;X&amp;&amp;&amp;&amp;      </tspan>
-<tspan x="15" y="303.0">                  .&amp;&amp;&amp;&amp;&amp;$x&amp;&amp;xx       .::...;:.+;;;:&amp;&amp;X&amp;&amp;&amp;&amp;        </tspan>
-<tspan x="15" y="316.8">                  &amp;&amp;: .:;+:+&amp;&amp;&amp;+ .:.....:.:.;++:..:&amp;&amp;&amp;&amp;           </tspan>
-<tspan x="15" y="330.5">                   ;$$+;::;:......;:.....:.;+++::..&amp;$ ;$x.        </tspan>
-<tspan x="15" y="344.2">                     xX+;......:;.;.:. ..;XXx;:.. .&amp;              </tspan>
-<tspan x="15" y="358.0">                     .X;XX;;:;:;.. .:.:;xX+;:;;:; x&amp;.             </tspan>
-<tspan x="15" y="371.8">                      xx;:;;:.    ...;XXX+;:;;:;;:;x              </tspan>
-<tspan x="15" y="385.5">                       +.;.:  .;;;;$&amp;$++;;;;x;;:;;.               </tspan>
-<tspan x="15" y="399.2">               .X&amp;&amp;&amp;&amp;&amp;$&amp; ....;;x$&amp;$XX;;;;;;;;;;;;x;               </tspan>
-<tspan x="15" y="413.0">        :&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$X&amp;XXX&amp;X&amp;$&amp;&amp;&amp;&amp;$X;.:.::;;;;;;;;;;xx.xXXXxx;.....::</tspan>
-<tspan x="15" y="426.8">;+XXXX&amp;&amp;&amp;$XX+;x$XxX$+xxX;$Xxx;;;;X;;;;+;;;;;;;;+;++        .      </tspan>
-<tspan x="15" y="440.5">;.:+;.+xX+xxX$$X+xXxXXX$Xxxx+;;;;;+:;..:::;;;;;;+x&amp;.             :</tspan>
-<tspan x="15" y="454.2">;;:;..X;&amp;x;$xXX;XXxXX;X$X;;+;;:..;+:;;;;;;;;;;x+;;x$$+            </tspan>
-<tspan x="15" y="468.0">;::;..:+..+$X$+XXXXXX+XX;;:;+;;;;;;;::.:;;;+;+.:;x$x..XX          </tspan>
-<tspan x="15" y="481.8">:;;;;:. +++XXxxXXXXxXX$XXXX+xx+;:;;x;;;::;;;;;:.;&amp;xX. +xXX$+      </tspan>
-<tspan x="15" y="495.5">;;++;.:$$$&amp;&amp;xxXX+XXXXX;;+XxxXXXx:..;;+;:;Xx++:. ;  . +.;:;;XXX;   </tspan>
-<tspan x="15" y="509.2">.:x;.;&amp;:;X; x+XXXXXXXXXx++XX+;..;;::..::Xx;;x     .::: ;:+; ;xXX$:</tspan>
+<text x="15" y="88" fill="#c9d1d9" class="ascii">
+<tspan x="15" y="88.0">                          &amp;&amp;.&amp;&amp;&amp;&amp;&amp;:$&amp;&amp;&amp;:;$&amp;&amp;                      </tspan>
+<tspan x="15" y="98.2">                  ;+X$X &amp;&amp;X&amp;&amp;$;x&amp;xX&amp;&amp;&amp;xx&amp;&amp;&amp;&amp;&amp;&amp;                    </tspan>
+<tspan x="15" y="108.4">                    &amp;&amp;X&amp;&amp;XXX&amp;&amp;+.;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;x. ;&amp;&amp;                   </tspan>
+<tspan x="15" y="118.6">                 &amp;$$&amp;X:X&amp;&amp;&amp;XXx&amp;&amp;&amp;&amp;&amp;x&amp;&amp;&amp;&amp;&amp;xX&amp;XX&amp;&amp;&amp;&amp;&amp;               </tspan>
+<tspan x="15" y="128.8">                 &amp;&amp;X$X&amp;&amp;&amp;; +&amp;&amp;&amp;&amp;XX;.;  X$+&amp;&amp;X&amp;&amp;.:.&amp;$x             </tspan>
+<tspan x="15" y="139.0">                 &amp;&amp;;$$;xx&amp;X&amp;&amp;&amp;XXX&amp;  ;   x&amp;XX +&amp;&amp;Xx+$&amp;&amp;&amp;x          </tspan>
+<tspan x="15" y="149.2">                   x&amp;&amp;&amp;&amp;+&amp;&amp;;.X. XX       &amp;&amp; . x;:$&amp;x;+X&amp;;         </tspan>
+<tspan x="15" y="159.4">              ;+;..&amp;X;.X&amp;&amp;X;.;XXx;        .&amp;$&amp;&amp;&amp;&amp;&amp;x&amp;XXX+X         </tspan>
+<tspan x="15" y="169.6">               ;+X+&amp;&amp;&amp;$;.;             .  :&amp; .+;$&amp;&amp;&amp;X$X&amp;&amp;         </tspan>
+<tspan x="15" y="179.8">                 +   :.:;.            ::;;.X+; +&amp;+&amp;XX&amp;&amp;&amp;&amp;&amp;        </tspan>
+<tspan x="15" y="190.0">                   X .:.   X&amp;&amp;&amp;&amp;&amp;&amp;X.    .  X$X::+&amp;&amp;$$$&amp;X;&amp;;       </tspan>
+<tspan x="15" y="200.2">                  &amp;&amp;$   :XXX+.      +;       ;+.;: X$xX&amp;x&amp;+       </tspan>
+<tspan x="15" y="210.4">                  X  X+;  ...&amp;&amp;&amp; &amp;&amp;&amp;+;;;.    .    X&amp;&amp;&amp;&amp;&amp;X&amp;        </tspan>
+<tspan x="15" y="220.6">                   &amp;&amp;X&amp;: &amp;&amp;XXX;..;..       .   :x;     &amp;&amp;&amp;        </tspan>
+<tspan x="15" y="230.8">                   &amp;&amp;X     ;;;x+              ..   $$$+ X&amp;        </tspan>
+<tspan x="15" y="241.0">                    ;   ;.          ...   ...:;x  xX  xx+X        </tspan>
+<tspan x="15" y="251.2">                   X       .;..  ..    ...... ..  $&amp;&amp;:  &amp;         </tspan>
+<tspan x="15" y="261.4">                  X.       ;$x:..         ...;;;;&amp;. :  X&amp;         </tspan>
+<tspan x="15" y="271.6">                  X..;XX&amp;&amp;$. ;;.    ..  ..::  ;;      &amp;&amp;          </tspan>
+<tspan x="15" y="281.8">                   ;&amp;&amp;&amp;&amp;X;          . .:::. ..+$x;;&amp;&amp;&amp;&amp;X&amp;&amp;&amp;&amp;      </tspan>
+<tspan x="15" y="292.0">                  .&amp;&amp;&amp;&amp;&amp;$x&amp;&amp;xx       .::...;:.+;;;:&amp;&amp;X&amp;&amp;&amp;&amp;        </tspan>
+<tspan x="15" y="302.2">                  &amp;&amp;: .:;+:+&amp;&amp;&amp;+ .:.....:.:.;++:..:&amp;&amp;&amp;&amp;           </tspan>
+<tspan x="15" y="312.4">                   ;$$+;::;:......;:.....:.;+++::..&amp;$ ;$x.        </tspan>
+<tspan x="15" y="322.6">                     xX+;......:;.;.:. ..;XXx;:.. .&amp;              </tspan>
+<tspan x="15" y="332.8">                     .X;XX;;:;:;.. .:.:;xX+;:;;:; x&amp;.             </tspan>
+<tspan x="15" y="343.0">                      xx;:;;:.    ...;XXX+;:;;:;;:;x              </tspan>
+<tspan x="15" y="353.2">                       +.;.:  .;;;;$&amp;$++;;;;x;;:;;.               </tspan>
+<tspan x="15" y="363.4">               .X&amp;&amp;&amp;&amp;&amp;$&amp; ....;;x$&amp;$XX;;;;;;;;;;;;x;               </tspan>
+<tspan x="15" y="373.6">        :&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$X&amp;XXX&amp;X&amp;$&amp;&amp;&amp;&amp;$X;.:.::;;;;;;;;;;xx.xXXXxx;       </tspan>
+<tspan x="15" y="383.8">;+XXXX&amp;&amp;&amp;$XX+;x$XxX$+xxX;$Xxx;;;;X;;;;+;;;;;;;;+;++               </tspan>
+<tspan x="15" y="394.0">;.:+;.+xX+xxX$$X+xXxXXX$Xxxx+;;;;;+:;..:::;;;;;;+x&amp;.              </tspan>
+<tspan x="15" y="404.2">;;:;..X;&amp;x;$xXX;XXxXX;X$X;;+;;:..;+:;;;;;;;;;;x+;;x$$+            </tspan>
+<tspan x="15" y="414.4">;::;..:+..+$X$+XXXXXX+XX;;:;+;;;;;;;::.:;;;+;+.:;x$x..XX          </tspan>
+<tspan x="15" y="424.6">:;;;;:. +++XXxxXXXXxXX$XXXX+xx+;:;;x;;;::;;;;;:.;&amp;xX. +xXX$+      </tspan>
+<tspan x="15" y="434.8">;;++;.:$$$&amp;&amp;xxXX+XXXXX;;+XxxXXXx:..;;+;:;Xx++:. ;  . +.;:;;XXX;   </tspan>
+<tspan x="15" y="445.0">.:x;.;&amp;:;X; x+XXXXXXXXXx++XX+;..;;::..::Xx;;x     .::: ;:+; ;xXX$:</tspan>
 </text>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">fouad@awad</tspan> -—————————————————————————————————————————————-—-
@@ -77,7 +77,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Giza, Egypt (Open to Relocate)</tspan>
 <tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
 <tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">8</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">8</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ................ </tspan><tspan class="value" id="star_data">1</tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .................. </tspan><tspan class="value" id="commit_data">21</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ............ </tspan><tspan class="value" id="follower_data">1</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .................. </tspan><tspan class="value" id="commit_data">22</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ............ </tspan><tspan class="value" id="follower_data">1</tspan>
 <tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> .... </tspan><tspan class="value" id="loc_data">15,629</tspan> ( <tspan class="addColor" id="loc_add">17,348</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"></tspan><tspan class="delColor" id="loc_del">1,719</tspan><tspan class="delColor">--</tspan> )
 </text>
 </svg>

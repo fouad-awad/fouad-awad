@@ -45,9 +45,9 @@ ASCII_LINES = [
     "                      xx;:;;:.    ...;XXX+;:;;:;;:;x              ",
     "                       +.;.:  .;;;;$&$++;;;;x;;:;;.               ",
     "               .X&&&&&$& ....;;x$&$XX;;;;;;;;;;;;x;               ",
-    "        :&&&&&&&&$X&XXX&X&$&&&&$X;.:.::;;;;;;;;;;xx.xXXXxx;.....::",
-    ";+XXXX&&&$XX+;x$XxX$+xxX;$Xxx;;;;X;;;;+;;;;;;;;+;++        .      ",
-    ";.:+;.+xX+xxX$$X+xXxXXX$Xxxx+;;;;;+:;..:::;;;;;;+x&.             :",
+    "        :&&&&&&&&$X&XXX&X&$&&&&$X;.:.::;;;;;;;;;;xx.xXXXxx;       ",
+    ";+XXXX&&&$XX+;x$XxX$+xxX;$Xxx;;;;X;;;;+;;;;;;;;+;++               ",
+    ";.:+;.+xX+xxX$$X+xXxXXX$Xxxx+;;;;;+:;..:::;;;;;;+x&.              ",
     ";;:;..X;&x;$xXX;XXxXX;X$X;;+;;:..;+:;;;;;;;;;;x+;;x$$+            ",
     ";::;..:+..+$X$+XXXXXX+XX;;:;+;;;;;;;::.:;;;+;+.:;x$x..XX          ",
     ":;;;;:. +++XXxxXXXXxXX$XXXX+xx+;:;;x;;;::;;;;;:.;&xX. +xXX$+      ",
@@ -190,10 +190,10 @@ def build_svg(stats: dict[str, int], dark: bool = True) -> str:
     del_col = "#f85149" if dark else "#cf222e"
     cc_col = "#616e7f" if dark else "#c2cfde"
 
-    # Build ASCII portrait tspans (36 lines fitted cleanly into x=15..375, y=28..510)
+    # Build ASCII portrait tspans with 1:1 original aspect ratio (char width ~5.5px, line step 10.2px)
     ascii_tspans = []
     for i, line in enumerate(ASCII_LINES):
-        y_pos = round(28 + i * 13.75, 1)
+        y_pos = round(88 + i * 10.2, 1)
         ascii_tspans.append(f'<tspan x="15" y="{y_pos}">{xml_escape(line)}</tspan>')
 
     # Build GitHub Stats lines (strictly 60 chars wide)
@@ -301,11 +301,11 @@ size-adjust: 109%;
 .addColor {{fill: {add_col};}}
 .delColor {{fill: {del_col};}}
 .cc {{fill: {cc_col};}}
-.ascii {{font-size: 9px;}}
+.ascii {{font-size: 9.5px;}}
 text, tspan {{white-space: pre;}}
 </style>
 <rect width="985px" height="530px" fill="{bg}" rx="15"/>
-<text x="15" y="28" fill="{fg}" class="ascii">
+<text x="15" y="88" fill="{fg}" class="ascii">
 {chr(10).join(ascii_tspans)}
 </text>
 <text x="390" y="30" fill="{fg}">
