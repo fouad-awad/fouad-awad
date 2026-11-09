@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#090d14"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .pulse { animation: pulseOp 2.4s ease-in-out infinite; }
+    @keyframes pulseOp { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+  </style>
+
+  <!-- Outer Card -->
+  <rect width="1000" height="420" rx="12" fill="url(#panelBg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Top Bar -->
+  <path d="M 1.5 12 A 10.5 10.5 0 0 1 12 1.5 L 988 1.5 A 10.5 10.5 0 0 1 998.5 12 L 998.5 40 L 1.5 40 Z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="999" y2="40" stroke="#30363d" stroke-width="1"/>
+  <circle cx="22" cy="20" r="5.5" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="5.5" fill="#ffbd2e"/>
+  <circle cx="58" cy="20" r="5.5" fill="#27c93f"/>
+  <text x="500" y="25" text-anchor="middle" class="mono" font-size="12" fill="#8b949e">
+    cloud-telemetry-daemon — Carbon-Aware Scheduler &amp; Engineering Matrix
+  </text>
+  <circle cx="842" cy="20" r="4" fill="#3fb950" class="pulse"/>
+  <text x="854" y="24" class="mono" font-size="11" fill="#3fb950" font-weight="600">LIVE TELEMETRY</text>
+
+  <!-- Vertical Divider -->
+  <line x1="500" y1="54" x2="500" y2="372" stroke="#21262d" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- LEFT PANEL HEADER: Carbon-Aware Scheduler -->
+  <text x="28" y="72" class="mono" font-size="14" fill="#3fb950" font-weight="700">
+    [01] CARBON &amp; COST-AWARE BATCH SCHEDULER (CAPSTONE)
+  </text>
+  <text x="28" y="92" class="sans" font-size="12" fill="#8b949e">
+    Routing AWS Batch workloads by regional grid carbon intensity &amp; Spot pricing
+  </text>
+  <rect x="28" y="102" width="445" height="20" rx="4" fill="#0f2318" stroke="#238636" stroke-width="0.8"/>
+  <text x="38" y="115.5" class="mono" font-size="10.5" fill="#3fb950" font-weight="600">
+    ACTIVE POLICY: Target &lt;50 gCO2eq/kWh · Est. CO2 Reduction: -74.2% · SLA: 100%
+  </text>
+
+  
+    <g transform="translate(28, 132)">
+      <rect width="445" height="38" rx="6" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <circle cx="14" cy="19" r="4" fill="#3fb950"/>
+      <text x="26" y="16" class="mono" font-size="11.5" fill="#e6edf3" font-weight="600">eu-north-1 (Stockholm)</text>
+      <text x="26" y="31" class="mono" font-size="10" fill="#8b949e">Spot: -68% vs On-Demand</text>
+      <rect x="205" y="10" width="120" height="8" rx="4" fill="#0d1117"/>
+      <rect x="205" y="10" width="10" height="8" rx="4" fill="#3fb950"/>
+      <text x="205" y="31" class="mono" font-size="10.5" fill="#3fb950" font-weight="600">19 gCO2eq/kWh</text>
+      <rect x="336" y="8" width="98" height="22" rx="4" fill="#0d1117" stroke="#3fb950" stroke-width="0.8"/>
+      <text x="385" y="22.5" text-anchor="middle" class="mono" font-size="9.5" fill="#3fb950" font-weight="700">ROUTE BATCH</text>
+    </g>
+    <g transform="translate(28, 178)">
+      <rect width="445" height="38" rx="6" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <circle cx="14" cy="19" r="4" fill="#3fb950"/>
+      <text x="26" y="16" class="mono" font-size="11.5" fill="#e6edf3" font-weight="600">ca-central-1 (Montreal)</text>
+      <text x="26" y="31" class="mono" font-size="10" fill="#8b949e">Spot: -62% vs On-Demand</text>
+      <rect x="205" y="10" width="120" height="8" rx="4" fill="#0d1117"/>
+      <rect x="205" y="10" width="10" height="8" rx="4" fill="#3fb950"/>
+      <text x="205" y="31" class="mono" font-size="10.5" fill="#3fb950" font-weight="600">35 gCO2eq/kWh</text>
+      <rect x="336" y="8" width="98" height="22" rx="4" fill="#0d1117" stroke="#3fb950" stroke-width="0.8"/>
+      <text x="385" y="22.5" text-anchor="middle" class="mono" font-size="9.5" fill="#3fb950" font-weight="700">SECONDARY</text>
+    </g>
+    <g transform="translate(28, 224)">
+      <rect width="445" height="38" rx="6" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <circle cx="14" cy="19" r="4" fill="#58a6ff"/>
+      <text x="26" y="16" class="mono" font-size="11.5" fill="#e6edf3" font-weight="600">us-west-2 (Oregon Hydro)</text>
+      <text x="26" y="31" class="mono" font-size="10" fill="#8b949e">Spot: -59% vs On-Demand</text>
+      <rect x="205" y="10" width="120" height="8" rx="4" fill="#0d1117"/>
+      <rect x="205" y="10" width="28" height="8" rx="4" fill="#58a6ff"/>
+      <text x="205" y="31" class="mono" font-size="10.5" fill="#58a6ff" font-weight="600">97 gCO2eq/kWh</text>
+      <rect x="336" y="8" width="98" height="22" rx="4" fill="#0d1117" stroke="#58a6ff" stroke-width="0.8"/>
+      <text x="385" y="22.5" text-anchor="middle" class="mono" font-size="9.5" fill="#58a6ff" font-weight="700">STANDBY</text>
+    </g>
+    <g transform="translate(28, 270)">
+      <rect width="445" height="38" rx="6" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <circle cx="14" cy="19" r="4" fill="#d29922"/>
+      <text x="26" y="16" class="mono" font-size="11.5" fill="#e6edf3" font-weight="600">eu-west-1 (Dublin Wind)</text>
+      <text x="26" y="31" class="mono" font-size="10" fill="#8b949e">Spot: -54% vs On-Demand</text>
+      <rect x="205" y="10" width="120" height="8" rx="4" fill="#0d1117"/>
+      <rect x="205" y="10" width="58" height="8" rx="4" fill="#d29922"/>
+      <text x="205" y="31" class="mono" font-size="10.5" fill="#d29922" font-weight="600">195 gCO2eq/kWh</text>
+      <rect x="336" y="8" width="98" height="22" rx="4" fill="#0d1117" stroke="#d29922" stroke-width="0.8"/>
+      <text x="385" y="22.5" text-anchor="middle" class="mono" font-size="9.5" fill="#d29922" font-weight="700">SLA WINDOW</text>
+    </g>
+    <g transform="translate(28, 316)">
+      <rect width="445" height="38" rx="6" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <circle cx="14" cy="19" r="4" fill="#f85149"/>
+      <text x="26" y="16" class="mono" font-size="11.5" fill="#e6edf3" font-weight="600">us-east-1 (N. Virginia)</text>
+      <text x="26" y="31" class="mono" font-size="10" fill="#8b949e">Spot: -47% vs On-Demand</text>
+      <rect x="205" y="10" width="120" height="8" rx="4" fill="#0d1117"/>
+      <rect x="205" y="10" width="100" height="8" rx="4" fill="#f85149"/>
+      <text x="205" y="31" class="mono" font-size="10.5" fill="#f85149" font-weight="600">335 gCO2eq/kWh</text>
+      <rect x="336" y="8" width="98" height="22" rx="4" fill="#0d1117" stroke="#f85149" stroke-width="0.8"/>
+      <text x="385" y="22.5" text-anchor="middle" class="mono" font-size="9.5" fill="#f85149" font-weight="700">DEFER / THROTTLE</text>
+    </g>
+
+  <!-- RIGHT PANEL HEADER: Engineering & GitHub Matrix -->
+  <text x="525" y="72" class="mono" font-size="14" fill="#58a6ff" font-weight="700">
+    [02] CLOUD, SYSTEMS &amp; CREATIVE TECH MATRIX
+  </text>
+  <text x="525" y="92" class="sans" font-size="12" fill="#8b949e">
+    Verified capabilities across Cloud IaC, DevOps, Data/AI &amp; Interactive Web
+  </text>
+
+  <!-- Quick KPI Pills -->
+  <g transform="translate(525, 100)">
+    <rect x="0" y="0" width="140" height="24" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="70" y="15.5" text-anchor="middle" class="mono" font-size="10.5" fill="#e6edf3">Repos: <tspan fill="#58a6ff" font-weight="700">7 Public</tspan></text>
+
+    <rect x="152" y="0" width="142" height="24" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="223" y="15.5" text-anchor="middle" class="mono" font-size="10.5" fill="#e6edf3">Cert: <tspan fill="#ff9900" font-weight="700">AWS SAA-C03</tspan></text>
+
+    <rect x="306" y="0" width="139" height="24" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="375" y="15.5" text-anchor="middle" class="mono" font-size="10.5" fill="#e6edf3">Rank: <tspan fill="#3fb950" font-weight="700">Top 3 IAEMS</tspan></text>
+  </g>
+
+  
+    <g transform="translate(525, 134)">
+      <text x="0" y="12" class="mono" font-size="11.5" fill="#c9d1d9" font-weight="600">AWS Cloud &amp; IaC (CFN / Terraform / Linux)</text>
+      <text x="445" y="12" text-anchor="end" class="mono" font-size="11.5" fill="#ff9900" font-weight="700">92%</text>
+      <rect x="0" y="19" width="445" height="9" rx="4.5" fill="#161b22" stroke="#21262d" stroke-width="0.8"/>
+      <rect x="0" y="19" width="377" height="9" rx="4.5" fill="#ff9900"/>
+    </g>
+    <g transform="translate(525, 176)">
+      <text x="0" y="12" class="mono" font-size="11.5" fill="#c9d1d9" font-weight="600">Networking, Security &amp; Multi-AZ HA</text>
+      <text x="445" y="12" text-anchor="end" class="mono" font-size="11.5" fill="#3fb950" font-weight="700">86%</text>
+      <rect x="0" y="19" width="445" height="9" rx="4.5" fill="#161b22" stroke="#21262d" stroke-width="0.8"/>
+      <rect x="0" y="19" width="352" height="9" rx="4.5" fill="#3fb950"/>
+    </g>
+    <g transform="translate(525, 218)">
+      <text x="0" y="12" class="mono" font-size="11.5" fill="#c9d1d9" font-weight="600">Python, SQL, Data Pipelines &amp; Bedrock AI</text>
+      <text x="445" y="12" text-anchor="end" class="mono" font-size="11.5" fill="#58a6ff" font-weight="700">82%</text>
+      <rect x="0" y="19" width="445" height="9" rx="4.5" fill="#161b22" stroke="#21262d" stroke-width="0.8"/>
+      <rect x="0" y="19" width="336" height="9" rx="4.5" fill="#58a6ff"/>
+    </g>
+    <g transform="translate(525, 260)">
+      <text x="0" y="12" class="mono" font-size="11.5" fill="#c9d1d9" font-weight="600">Full-Stack Web &amp; Core Web Vitals (React/JS)</text>
+      <text x="445" y="12" text-anchor="end" class="mono" font-size="11.5" fill="#bc8cff" font-weight="700">85%</text>
+      <rect x="0" y="19" width="445" height="9" rx="4.5" fill="#161b22" stroke="#21262d" stroke-width="0.8"/>
+      <rect x="0" y="19" width="348" height="9" rx="4.5" fill="#bc8cff"/>
+    </g>
+    <g transform="translate(525, 302)">
+      <text x="0" y="12" class="mono" font-size="11.5" fill="#c9d1d9" font-weight="600">Game Dev &amp; Creative Tech (Godot / Java / C++)</text>
+      <text x="445" y="12" text-anchor="end" class="mono" font-size="11.5" fill="#39c5cf" font-weight="700">74%</text>
+      <rect x="0" y="19" width="445" height="9" rx="4.5" fill="#161b22" stroke="#21262d" stroke-width="0.8"/>
+      <rect x="0" y="19" width="303" height="9" rx="4.5" fill="#39c5cf"/>
+    </g>
+
+  <!-- Bottom Status Bar -->
+  <line x1="1" y1="380" x2="999" y2="380" stroke="#21262d" stroke-width="1"/>
+  <text x="28" y="402" class="mono" font-size="11" fill="#8b949e">
+    $ systemctl status green-scheduler.service -&gt; <tspan fill="#3fb950" font-weight="600">active (running)</tspan> | Primary Region: <tspan fill="#3fb950">eu-north-1</tspan>
+  </text>
+  <text x="972" y="402" text-anchor="end" class="mono" font-size="11" fill="#8b949e">
+    Last Synced: <tspan fill="#58a6ff">2026-11-09 15:40 UTC</tspan> (Stars: 1 · Active Projects: 7)
+  </text>
+</svg>

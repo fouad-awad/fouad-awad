@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#090d13"/>
+    </linearGradient>
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace; font-size: 13px; }
+    .key { fill: #58a6ff; font-weight: 700; }
+    .val { fill: #c9d1d9; }
+    .hi-green { fill: #3fb950; font-weight: 600; }
+    .hi-orange { fill: #ff9900; font-weight: 600; }
+    .hi-purple { fill: #d2a8ff; font-weight: 600; }
+    .dim { fill: #8b949e; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  <!-- Terminal Window Frame -->
+  <rect width="1000" height="440" rx="12" fill="url(#termBg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Header Bar -->
+  <path d="M 1.5 12 A 10.5 10.5 0 0 1 12 1.5 L 988 1.5 A 10.5 10.5 0 0 1 998.5 12 L 998.5 38 L 1.5 38 Z" fill="#161b22"/>
+  <line x1="1" y1="38" x2="999" y2="38" stroke="#30363d" stroke-width="1"/>
+  <circle cx="22" cy="20" r="5.5" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="5.5" fill="#ffbd2e"/>
+  <circle cx="58" cy="20" r="5.5" fill="#27c93f"/>
+  <text x="500" y="24" text-anchor="middle" class="mono dim">fastfetch — fouad@aws-cloud-node</text>
+
+  <!-- Left Column: ASCII / Vector Cloud & Terminal Art -->
+  <g transform="translate(32, 68)" class="mono" fill="url(#asciiGrad)" font-weight="700" xml:space="preserve">
+    <text x="0" y="20">          .---.          </text>
+    <text x="0" y="40">       .-(     )-.       </text>
+    <text x="0" y="60">    .-(   GREEN   )-.    </text>
+    <text x="0" y="80">   (   CLOUD  NODE   )   </text>
+    <text x="0" y="100">    '-.___________.-'    </text>
+    <text x="0" y="122" fill="#58a6ff">      |   |   |   |      </text>
+    <text x="0" y="142" fill="#3fb950">    [AZ1] [AZ2] [AZ3]    </text>
+    <text x="0" y="164" fill="#8b949e">   ┌─────────────────┐   </text>
+    <text x="0" y="184" fill="#8b949e">   │  $ iac --deploy │   </text>
+    <text x="0" y="204" fill="#8b949e">   │  &gt; CO2: OPTIMAL │   </text>
+    <text x="0" y="224" fill="#8b949e">   │  &gt; SLA: 99.99%  │   </text>
+    <text x="0" y="244" fill="#8b949e">   └─────────────────┘   </text>
+  </g>
+
+  <!-- Mini Status Box under ASCII art -->
+  <g transform="translate(38, 336)">
+    <rect width="195" height="68" rx="8" fill="#161b22" stroke="#238636" stroke-width="1"/>
+    <text x="14" y="22" class="mono hi-green" font-size="11.5">● SYSTEM STATUS: ONLINE</text>
+    <text x="14" y="41" class="mono dim" font-size="11">Load: -45% Latency</text>
+    <text x="14" y="57" class="mono dim" font-size="11">Carbon Policy: Active</text>
+  </g>
+
+  <!-- Right Column: Fastfetch Details -->
+  <g transform="translate(268, 68)" class="mono">
+    <!-- User@Host Header -->
+    <text x="0" y="16">
+      <tspan fill="#3fb950" font-weight="700">fouad-awad</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#58a6ff" font-weight="700">aws-cloud-engine</tspan>
+    </text>
+    <text x="0" y="34" class="dim">────────────────────────────────────────────────────────────────────────────────</text>
+
+    <text x="0" y="58">
+      <tspan class="key">Role        </tspan><tspan class="dim">:: </tspan><tspan class="val">Cloud &amp; DevOps Engineer · Full-Stack &amp; Creative Developer</tspan>
+    </text>
+    <text x="0" y="82">
+      <tspan class="key">Certs       </tspan><tspan class="dim">:: </tspan><tspan class="hi-orange">AWS Certified Solutions Architect – Associate (SAA-C03)</tspan>
+    </text>
+    <text x="0" y="106">
+      <tspan class="key">Badges      </tspan><tspan class="dim">:: </tspan><tspan class="val">AWS Well-Architected Proficient · Claude on Amazon Bedrock</tspan>
+    </text>
+    <text x="0" y="130">
+      <tspan class="key">Education   </tspan><tspan class="dim">:: </tspan><tspan class="val">B.Sc. Computer Engineering @ IAEMS (GPA 3.4 · </tspan><tspan class="hi-green">Ranked 3rd</tspan><tspan class="val"> · Jan 2027)</tspan>
+    </text>
+    <text x="0" y="154">
+      <tspan class="key">Capstone    </tspan><tspan class="dim">:: </tspan><tspan class="hi-green">Carbon &amp; Cost-Aware Multi-Cloud Batch Job Scheduler</tspan>
+    </text>
+    <text x="0" y="178">
+      <tspan class="key">Cloud &amp; IaC </tspan><tspan class="dim">:: </tspan><tspan class="val">AWS (EC2, VPC, RDS, Batch, CloudFront, WAF, Bedrock), Terraform, CFN</tspan>
+    </text>
+    <text x="0" y="202">
+      <tspan class="key">DevOps &amp; DB </tspan><tspan class="dim">:: </tspan><tspan class="val">Docker, Kubernetes, GitHub Actions CI/CD, Linux, PostgreSQL, MySQL</tspan>
+    </text>
+    <text x="0" y="226">
+      <tspan class="key">Code &amp; Web  </tspan><tspan class="dim">:: </tspan><tspan class="val">Python, Bash, C/C++, JavaScript, React, Node.js, Core Web Vitals</tspan>
+    </text>
+    <text x="0" y="250">
+      <tspan class="key">Creatives   </tspan><tspan class="dim">:: </tspan><tspan class="hi-purple">Game Dev (Godot / Minecraft Mods) · Interactive Web · Indie/Rock Guitar</tspan>
+    </text>
+    <text x="0" y="274">
+      <tspan class="key">Languages   </tspan><tspan class="dim">:: </tspan><tspan class="val">Arabic (Native/C2) · English (Advanced/C1) · German (Intermediate/B1)</tspan>
+    </text>
+    <text x="0" y="298">
+      <tspan class="key">Contact     </tspan><tspan class="dim">:: </tspan><tspan class="val">fouadawad.org · fouad.ai@outlook.com · linkedin.com/in/fouad-awad</tspan>
+    </text>
+
+    <!-- Terminal Color Palette Swatches -->
+    <g transform="translate(0, 316)">
+      <rect x="0" y="0" width="22" height="12" rx="3" fill="#21262d"/>
+      <rect x="28" y="0" width="22" height="12" rx="3" fill="#ff5f56"/>
+      <rect x="56" y="0" width="22" height="12" rx="3" fill="#3fb950"/>
+      <rect x="84" y="0" width="22" height="12" rx="3" fill="#ff9900"/>
+      <rect x="112" y="0" width="22" height="12" rx="3" fill="#58a6ff"/>
+      <rect x="140" y="0" width="22" height="12" rx="3" fill="#bc8cff"/>
+      <rect x="168" y="0" width="22" height="12" rx="3" fill="#39c5cf"/>
+      <rect x="196" y="0" width="22" height="12" rx="3" fill="#e6edf3"/>
+    </g>
+
+    <!-- Interactive Prompt at Bottom -->
+    <text x="0" y="352">
+      <tspan fill="#3fb950" font-weight="700">fouad@aws-cloud-engine</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff" font-weight="700">~</tspan><tspan fill="#e6edf3">$ ./schedule-batch --carbon-intensity=low --sla=strict </tspan>
+    </text>
+    <rect x="585" y="339" width="8" height="15" fill="#3fb950" class="cursor"/>
+  </g>
+</svg>
