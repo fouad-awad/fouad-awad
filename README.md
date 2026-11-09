@@ -66,7 +66,7 @@
 <!-- TELEMETRY:START -->
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│  GREEN-CLOUD SCHEDULER & GITHUB TELEMETRY  ·  LAST SYNC: 2026-11-09 15:51 UTC          │
+│  GREEN-CLOUD SCHEDULER & GITHUB TELEMETRY  ·  LAST SYNC: 2026-11-09 16:00 UTC          │
 ├──────────────────────────────┬───────────────────────────────────────────────────────────┤
 │  Optimal Batch Region        │  eu-north-1 (Stockholm) — ~18-24 gCO2eq/kWh (Hydro/Wind)  │
 │  Spot Routing Policy         │  Active (-68% Spot Cost · 0 SLA Violations)               │
